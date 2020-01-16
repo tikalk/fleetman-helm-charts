@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  device-manager:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-01-16T18:50:57.262222+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 4cefdcea4ac1e6effe074c5dd672a4bdd42c31e2d2b9e14cb80a66e91cc67f5a
+    name: device-manager
+    type: application
+    urls:
+    - device-manager-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-01-16T18:50:57.261205+02:00"
