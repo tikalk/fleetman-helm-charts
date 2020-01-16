@@ -3,12 +3,67 @@ entries:
   device-manager:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-01-16T18:50:57.262222+02:00"
+    created: "2020-01-16T21:28:37.69556+02:00"
     description: A Helm chart for Kubernetes
     digest: 4cefdcea4ac1e6effe074c5dd672a4bdd42c31e2d2b9e14cb80a66e91cc67f5a
     name: device-manager
     type: application
     urls:
-    - device-manager-0.1.0.tgz
+    - https://github.com/tikalk/fleetman-helm-charts/device-manager-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-16T18:50:57.261205+02:00"
+  gps-gateway:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-01-16T21:28:37.695989+02:00"
+    description: A Helm chart for Kubernetes
+    digest: de42883a767024b91f54f82464c7ab6560cc977c26803bd923d4e9cd8d332c75
+    name: gps-gateway
+    type: application
+    urls:
+    - https://github.com/tikalk/fleetman-helm-charts/gps-gateway-0.1.0.tgz
+    version: 0.1.0
+  gps-simulator:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-01-16T21:28:37.696399+02:00"
+    description: A Helm chart for Kubernetes
+    digest: a888200920521a4cd8f2ffe2b09b81ff6bb47ae6d98e1eb423c5b03aec0ac497
+    name: gps-simulator
+    type: application
+    urls:
+    - https://github.com/tikalk/fleetman-helm-charts/gps-simulator-0.1.0.tgz
+    version: 0.1.0
+  location-history:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-01-16T21:28:37.696837+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 768ec1d7ca56a50d5dfb8f24bbce7d7b5f8af6d3ad68a0ec6aba49235c5728a4
+    name: location-history
+    type: application
+    urls:
+    - https://github.com/tikalk/fleetman-helm-charts/location-history-0.1.0.tgz
+    version: 0.1.0
+  location-tracker:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-01-16T21:28:37.697244+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 3a5153631dddfd6fe24e7bf7832c004b7f00a5f9810bb36e75744aee1a19ef60
+    name: location-tracker
+    type: application
+    urls:
+    - https://github.com/tikalk/fleetman-helm-charts/location-tracker-0.1.0.tgz
+    version: 0.1.0
+  webapp:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-01-16T21:28:37.697632+02:00"
+    description: A Helm chart for Kubernetes
+    digest: ab5338f057eb6dcbc9b3ad7a91a282dcd619f273d20c3cde711efc02e6603e2b
+    name: webapp
+    type: application
+    urls:
+    - https://github.com/tikalk/fleetman-helm-charts/webapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-01-16T21:28:37.694414+02:00"
